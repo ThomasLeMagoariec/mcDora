@@ -66,3 +66,30 @@ li a:hover {
     top: 20%;
     z-index: -10;
 }
+
+.commander {
+    background: white;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    width: 20%;
+    color: black;
+    border: solid 3px white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.ctitle {
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+.ctext {
+    margin-left: 20px;
+}
+
+.cbtn {
+    margin-left: 25%;
+    font-size: 0.9rem;
+    width: 50%;
+}

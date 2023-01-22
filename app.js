@@ -1,6 +1,11 @@
 const pub1 = document.querySelector(".pub1");
 const pub2 = document.querySelector(".pub2");
 const pub3 = document.querySelector(".pub3");
+const orderbtn = document.querySelector(".cbtn");
+
+orderbtn.addEventListener("click", () => {
+    window.location.href = "/order";
+})
 
 var i = 0;
 
