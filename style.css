@@ -1,0 +1,68 @@
+body {
+    background: #FFC72C;
+}
+
+.pfont {
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #164f36;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    width: 20%;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: yellow;
+    padding: 30px 90px;
+    text-decoration: none;
+    opacity: 70%;
+    font-size: large;
+}
+
+li a:hover {
+    background-color: #111;
+    opacity: 100%;
+    font-size: x-large;
+}
+
+.pub1 {
+    position: absolute;
+    max-width: 60%;
+    max-height: 75%;
+    left: 5%;
+    top: 20%;
+    z-index: -10;
+}
+
+.pub2 {
+    position: absolute;
+    max-width: 60%;
+    max-height: 75%;
+    left: 5%;
+    top: 20%;
+    z-index: -10;
+}
+
+.pub3 {
+    position: absolute;
+    max-width: 60%;
+    height: 50.4%;
+    left: 5%;
+    top: 20%;
+    z-index: -10;
+}

@@ -1,0 +1,196 @@
+.pfont {
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    margin: 20px;
+    text-decoration: underline;
+}
+
+.categories {
+    margin-left: 10px;
+    margin-top: 35vh;
+    border: solid 3px #164f36;
+    border-radius: 10px;
+    background-color: #164f36;
+    max-width: 12.5%;
+    max-height: 10%;
+}
+
+.category {
+    color: whitesmoke;
+    margin-left: 30px;
+    font-size: large;
+}
+
+.category:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    transform: translate(10px);
+    cursor: pointer;
+}
+
+.products {
+    position: absolute;
+    border: solid 10px #164f36;
+    border-radius: 25px;
+    left: 20%;
+    top: 5%;
+    min-width: 60%;
+    min-height: 93%;
+}
+
+.product {
+    max-width: 20%;
+    max-height: 50%;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.product:hover {
+    border: solid 3px yellow;
+    cursor: pointer;
+}
+
+.product1 {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.product2 {
+    position: absolute;
+    left: 20px;
+    top: 35%;
+}
+
+.product3 {
+    position: absolute;
+    left: 20px;
+    top: 68.5%;
+}
+
+.product4 {
+    position: absolute;
+    left: 26%;
+    top: 10px;
+}
+
+.product5 {
+    position: absolute;
+    left: 26%;
+    top: 35%;
+}
+
+.product6 {
+    position: absolute;
+    left: 26%;
+    top: 68.5%;
+}
+
+.product7 {
+    position: absolute;
+    left: 50%;
+    top: 10px;
+}
+
+.product8 {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+}
+
+.product9 {
+    position: absolute;
+    left: 50%;
+    top: 68.5%;
+}
+
+.product10 {
+    position: absolute;
+    left: 74%;
+    top: 10px;
+}
+
+.productimg {
+    width: 13.5rem;
+    height: 13.5rem;
+}
+
+.orderbtn,
+.schosen,
+.bchosen,
+.dchosen {
+    margin-left: 10%;
+    width: 80%;
+}
+
+.cart {
+    position: absolute;
+    border: solid 3px #164f36;
+    border-radius: 10px;
+    background-color: #164f36;
+    width: 15%;
+    height: 60%;
+    top: 10%;
+    right: 50px;
+    font-size: large;
+    color: white;
+}
+
+.incart,
+.totalstr {
+    font-size: large;
+    margin-left: 10px;
+    color: white;
+}
+
+.carttitle {
+    text-decoration: underline;
+}
+
+.total {
+    position: absolute;
+    border: solid 3px #164f36;
+    border-radius: 10px;
+    background-color: #164f36;
+    width: 15%;
+    height: 5%;
+    top: 72%;
+    right: 50px;
+    font-size: large;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #164f36;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: yellow;
+    text-align: left;
+    padding: 30px 90px;
+    text-decoration: none;
+    opacity: 70%;
+    font-size: large;
+    max-width: 10%;
+}
+
+li a:hover {
+    background-color: #111;
+    opacity: 100%;
+}
+
+.back {
+    position: absolute;
+    bottom: 3%;
+    left: 2%;
+}

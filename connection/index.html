@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    </style>
+    <title>McDora | Se connecter</title>
+</head>
+
+<body>
+    <ul class="banner">
+        <li class="banneritem"><a href="/" class="pfont">McDora</a></li>
+        <li class="banneritem"><a href="/order" class="pfont">Menus</a></li>
+        <li class="banneritem"><a href=" /nosrestau" class="pfont">Restaurants</a></li>
+        <li class="banneritem"><a href="/aboutpage" class="pfont">A Propos</a></li>
+        <li class="banneritem"><a href="/connection" class="pfont">Se Connecter</a></li>
+    </ul>
+    <div class="frame">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Nom D'Utilisateur" aria-label="Nom D'Utilisateur" aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group mb-3">
+            <input type="password" class="form-control" placeholder="Mot De Passe" aria-label="Mot De Passe" aria-describedby="basic-addon1">
+        </div>
+        <button class="btn btn-warning connect">Connection</button>
+
+    </div>
+
+    <script>
+        const btn = document.querySelector(".connect");
+        btn.addEventListener("click", () => {
+            window.location.href = "/";
+        });
+    </script>
+
+</body>
+
+</html>

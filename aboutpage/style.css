@@ -1,0 +1,85 @@
+body {
+    background-color: #FFC72C;
+    color: #164f36;
+}
+
+.pfont {
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    font-size: 4rem;
+    text-decoration: underline;
+    margin-left: 4%;
+    margin-top: 7%;
+    color: whitesmoke;
+}
+
+.paragraph1 {
+    position: absolute;
+    left: 20%;
+    border: solid 3px #164f36;
+    border-radius: 25px;
+    max-width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #164f36;
+    color: white;
+}
+
+.doraimg {
+    width: 20%;
+    margin-right: 20px;
+}
+
+.paragraph2 {
+    position: absolute;
+    left: 20%;
+    top: 70%;
+    border: solid 3px #164f36;
+    border-radius: 25px;
+    max-width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #164f36;
+    color: white;
+    font-size: larger;
+}
+
+.text {
+    margin: 20px;
+}
+
+.banner {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #164f36;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    width: 20%;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: yellow;
+    padding: 30px 90px;
+    text-decoration: none;
+    opacity: 70%;
+    font-size: large;
+}
+
+li a:hover {
+    background-color: #111;
+    opacity: 100%;
+    font-size: x-large;
+}
