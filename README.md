@@ -7,4 +7,4 @@ Consigne:
   
   
   
-On a choisi de faire une parodie de McDonald's en y apportant notre propre touche et idées
+On a choisi de faire une parodie de McDonald's en y apportant nos propre touches et idées
