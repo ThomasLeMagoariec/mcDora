@@ -2,8 +2,7 @@
 
 Projet de spé NSI en première
 
-Consigne:
-    - creer un site pour un restaurant
+Consigne: creer un site pour un restaurant
   
 
   

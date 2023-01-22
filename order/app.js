@@ -321,5 +321,5 @@ orderbtn.forEach(btn => {
 });
 
 back.addEventListener("click", () => {
-    window.location.href = "/mcDora/";
+    window.location.href = "/mcDora/index.html";
 })
