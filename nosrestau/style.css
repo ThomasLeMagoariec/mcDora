@@ -38,9 +38,40 @@ li a:hover {
 
 .lacarte {
     position: absolute;
-    top: 200px;
+    top: 15%;
+    left: 3%;
 }
 
-h1 {
+.title {
+    position: absolute;
+    top: 20%;
+    right: 15%;
     text-decoration: underline;
+}
+
+.commander {
+    background: #164f36;
+    position: absolute;
+    top: 31%;
+    right: 13%;
+    width: 20%;
+    color: white;
+    border: solid 3px #164f36;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.ctitle {
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+.ctext {
+    margin-left: 20px;
+}
+
+.cbtn {
+    margin-left: 25%;
+    font-size: 0.9rem;
+    width: 50%;
 }
