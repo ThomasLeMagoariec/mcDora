@@ -274,11 +274,11 @@ orderbtn.forEach(btn => {
         if (selected === 0) {
             toAdd = new Item(burgerNames[parseInt(loc) - 1], 0, burgerPrices[parseInt(loc) - 1]);
         } else if (selected === 1) {
-            toAdd = new Item(menuNames[parseInt(loc) - 1], 0, menuPrices[parseInt(loc) - 1]);
+            toAdd = new Item(menuNames[parseInt(loc) - 1], 1, menuPrices[parseInt(loc) - 1]);
         } else if (selected === 2) {
-            toAdd = new Item(drinkNames[parseInt(loc) - 1], 0, drinkPrices[parseInt(loc) - 1]);
+            toAdd = new Item(drinkNames[parseInt(loc) - 1], 2, drinkPrices[parseInt(loc) - 1]);
         } else if (selected === 3) {
-            toAdd = new Item(dessertNames[parseInt(loc) - 1], 0, dessertPrices[parseInt(loc) - 1]);
+            toAdd = new Item(dessertNames[parseInt(loc) - 1], 3, dessertPrices[parseInt(loc) - 1]);
         } else {
             console.log("failed");
         }
@@ -288,25 +288,33 @@ orderbtn.forEach(btn => {
         for (i = 0; i < order.items.length; i++) {
             if (order.items[i].getName() === toAdd.getName()) {
                 order.items[i].upCount();
-                console.log("COUNT GO UP");
             }
 
+            let changed = false;
             incart.forEach(j => {
-                if (j.textContent === "") {
+
+                if (j.textContent === "" && !changed) {
                     j.textContent = order.items[i].getName() + " x" + order.items[i].getCount();
+                    changed = true;
                 } else {
-                    if (j.textContent.split(" ")[0] === toAdd.getName()) {
+                    if (j.textContent.split(" ")[0] === order.items[i].getName() && !changed) {
                         j.textContent = order.items[i].getName() + " x" + order.items[i].getCount();
+                        changed = true;
                     }
                 }
             });
 
             if (order.items[i].getName() === toAdd.getName() && order.items[i].getCount() > 1) {
-                order.removeItem(order.items[i]);
-                console.log("ITEM GO BRRR")
+                order.removeItem(toAdd);
             }
 
+            totalstr.textContent = "Total: " + order.totalprice + ".00€";
 
+        }
+
+        if (toAdd.getType() === 1) {
+            console.log("menu chosen")
+            askBurgerFn();
         }
 
     });
