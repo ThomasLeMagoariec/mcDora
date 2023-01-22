@@ -4,7 +4,7 @@ const pub3 = document.querySelector(".pub3");
 const orderbtn = document.querySelector(".cbtn");
 
 orderbtn.addEventListener("click", () => {
-    window.location.href = "/order";
+    window.location.href = "/mcDora/order";
 })
 
 var i = 0;
