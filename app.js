@@ -3,6 +3,8 @@ const pub2 = document.querySelector(".pub2");
 const pub3 = document.querySelector(".pub3");
 const orderbtn = document.querySelector(".cbtn");
 
+console.log("si il y a une erreur d'affichage Ctrl+R");
+
 orderbtn.addEventListener("click", () => {
     window.location.href = "/mcDora/order";
 })
