@@ -6,7 +6,7 @@ const orderbtn = document.querySelector(".cbtn");
 console.log("si il y a une erreur d'affichage Ctrl+R");
 
 orderbtn.addEventListener("click", () => {
-    window.location.href = "/mcDora/order";
+    window.location.href = "/order";
 })
 
 var i = 0;

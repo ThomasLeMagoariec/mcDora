@@ -161,6 +161,15 @@
     font-size: large;
 }
 
+.commander {
+    position: absolute;
+    width: 15%;
+    height: 8%;
+    top: 80%;
+    right: 50px;
+    font-size: large;
+}
+
 ul {
     list-style-type: none;
     margin: 0;

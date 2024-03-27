@@ -320,6 +320,15 @@ orderbtn.forEach(btn => {
     });
 });
 
+
+
+const handlesubmit = () => {
+    let listeJson = JSON.stringify(order.items);
+    let listeEncodee = encodeURIComponent(listeJson);
+    window.location.href = "http://localhost:5173/paiements?amount=" + order.totalprice + `&command=` + listeEncodee;
+    console.log("localhost:5173/paiements?amount=" + order.totalprice + "&command=" + listeEncodee);
+}
+
 back.addEventListener("click", () => {
     window.location.href = "/mcDora/index.html";
 })
